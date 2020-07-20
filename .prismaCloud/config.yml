@@ -4,7 +4,6 @@ terraform_012_parameters:
   - root_module: rich-value-types/network/
   - root_module: for-expressions/
   - root_module: datafactory/
-  - root-module: .github/
   
 tags:
   - 'Org: Panw'
