@@ -3,6 +3,10 @@
 # API url retreived from logging into Prisma Cloud application
 prisma_cloud_api_url: 'https://api3.prismacloud.io'
 
+# Create a new Access Token by navigating to Settings > Access Keys. Copy the credentials below
+access_key: '19896e32-61e1-4327-b199-fd621aec5716'
+secret_key: 'n5ZJMQDtX0ZTE8s1PsnhllYZwZ0='
+
 # Define the failure criteria for creating checks. If the criteria matches a check will be created. The template for the checks can be customized in the "/.github/prisma-template-for-scan-results" file.
 failure_criteria_for_creating_checks:
   high: 1
