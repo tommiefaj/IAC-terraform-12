@@ -21,7 +21,7 @@ workflows:
       - scan_iac:
           prisma_cloud_api_url: https://api3.prismacloud.io
           access_key: 962c246c-7c24-4eb6-9271-f153a26fc7ee
-          secret_key: nf4fiputYUBioq6KFqZPyBS+RG8=
+          secret_key: PC_SECRET_KEY
           templates_directory_path: for-expressions
           failure_criteria_high_severity: 1
           failure_criteria_medium_severity: 1
