@@ -28,7 +28,6 @@ workflows:
           failure_criteria_medium_severity: 1
           failure_criteria_low_severity: 1
           failure_criteria_operator: or
-      - docker_build_and_save
       
       
 
